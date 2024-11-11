@@ -1,45 +1,53 @@
 import java.util.ArrayList;
 import java.util.Random;
 
+
 public class Laboratorio18 {
     public static void main(String[] args) {
-        Random rand = new Random();
+        Mapa mapa = new Mapa(10, 10);
+        Ejercito ejercito1 = new Ejercito(10, mapa);
+        Ejercito ejercito2 = new Ejercito(10, mapa);
 
-        
-        ArrayList<Soldado> ejercito1 = new ArrayList<>();
-        ArrayList<Soldado> ejercito2 = new ArrayList<>();
+        System.out.println("Comienza la batalla entre los dos ejércitos!");
 
-        
-        for (int i = 0; i < 10; i++) {
-            ejercito1.add(generarSoldadoAleatorio(i + 1, rand));
-            ejercito2.add(generarSoldadoAleatorio(i + 11, rand));
+        int turno = 1;
+        while (ejercito1.tieneSoldadosVivos() && ejercito2.tieneSoldadosVivos()) {
+            System.out.println("\nTurno " + turno + ":");
+            realizarTurno(ejercito1, ejercito2);
+            realizarTurno(ejercito2, ejercito1);
+            turno++;
         }
-
-       
-        System.out.println("Ejército 1:");
-        for (Soldado soldado : ejercito1) {
-            soldado.mostrarInfo();
-        }
-
-        System.out.println("\nEjército 2:");
-        for (Soldado soldado : ejercito2) {
-            soldado.mostrarInfo();
+        
+        if (ejercito1.tieneSoldadosVivos()) {
+            System.out.println("¡El Ejército 1 gana la batalla!");
+        } else if (ejercito2.tieneSoldadosVivos()) {
+            System.out.println("¡El Ejército 2 gana la batalla!");
+        } else {
+            System.out.println("¡La batalla termina en empate!");
         }
     }
 
-    public static Soldado generarSoldadoAleatorio(int id, Random rand) {
-        int tipo = rand.nextInt(3);
-        int vida = 3 + rand.nextInt(3); 
-        int fila = rand.nextInt(10);
-        int columna = rand.nextInt(10);
-
-        switch (tipo) {
-            case 0:
-                return new Espadachin("Espadachin" + id, vida, fila, columna, 5 + rand.nextInt(5));
-            case 1:
-                return new Arquero("Arquero" + id, vida, fila, columna, 10 + rand.nextInt(5));
-            default:
-                return new Caballero("Caballero" + id, vida, fila, columna);
+    private static void realizarTurno(Ejercito ejercitoAtacante, Ejercito ejercitoDefensor) {
+        for (Soldado soldado : ejercitoAtacante.getSoldados()) {
+            if (soldado.getPuntosVida() > 0) {
+                Soldado enemigo = encontrarEnemigoAleatorio(ejercitoDefensor);
+                if (enemigo != null) {
+                    soldado.atacar();
+                    enemigo.recibirAtaque();
+                    System.out.println(soldado.getNombre() + " ataca a " + enemigo.getNombre());
+                }
+            }
         }
+    }
+
+    private static Soldado encontrarEnemigoAleatorio(Ejercito ejercito) {
+        Random rand = new Random();
+        ArrayList<Soldado> soldadosVivos = new ArrayList<>();
+        for (Soldado soldado : ejercito.getSoldados()) {
+            if (soldado.getPuntosVida() > 0) {
+                soldadosVivos.add(soldado);
+            }
+        }
+        return soldadosVivos.isEmpty() ? null : soldadosVivos.get(rand.nextInt(soldadosVivos.size()));
     }
 }

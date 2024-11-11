@@ -1,0 +1,143 @@
+Turno 1:
+Caballero0 envestido montando ataca 3 veces con lanza
+Caballero0 ataca a Arquero3
+Caballero1 envestido montando ataca 3 veces con lanza
+Caballero1 ataca a Arquero6
+Caballero2 envestido montando ataca 3 veces con lanza
+Caballero2 ataca a Caballero5
+Caballero3 envestido montando ataca 3 veces con lanza
+Caballero3 ataca a Arquero1
+Arquero4 dispara una flecha. Flechas restantes: 12
+Arquero4 ataca a Caballero2
+Arquero5 dispara una flecha. Flechas restantes: 11
+Arquero5 ataca a Arquero9
+Caballero6 envestido montando ataca 3 veces con lanza
+Caballero6 ataca a Arquero8
+Espadachin7 realiza un ataque con su espada de longitud 5
+Espadachin7 ataca a Arquero8
+Caballero8 envestido montando ataca 3 veces con lanza
+Caballero8 ataca a Espadachin7
+Espadachin9 realiza un ataque con su espada de longitud 9
+Espadachin9 ataca a Arquero4
+Arquero0 dispara una flecha. Flechas restantes: 11
+Arquero0 ataca a Caballero6
+Arquero1 dispara una flecha. Flechas restantes: 12
+Arquero1 ataca a Caballero2
+Caballero2 envestido montando ataca 3 veces con lanza
+Caballero2 ataca a Caballero0
+Arquero3 dispara una flecha. Flechas restantes: 12
+Arquero3 ataca a Caballero8
+Arquero4 dispara una flecha. Flechas restantes: 12
+Arquero4 ataca a Espadachin7
+Caballero5 envestido montando ataca 3 veces con lanza
+Caballero5 ataca a Arquero4
+Arquero6 dispara una flecha. Flechas restantes: 9
+Arquero6 ataca a Caballero1
+Espadachin7 realiza un ataque con su espada de longitud 7
+Espadachin7 ataca a Caballero0
+Arquero8 dispara una flecha. Flechas restantes: 9
+Arquero8 ataca a Caballero3
+Arquero9 dispara una flecha. Flechas restantes: 12
+Arquero9 ataca a Espadachin9
+
+Turno 2:
+Caballero0 envestido montando ataca 3 veces con lanza
+Caballero0 ataca a Caballero2
+Caballero1 envestido montando ataca 3 veces con lanza
+Caballero1 ataca a Arquero1
+Caballero2 envestido montando ataca 3 veces con lanza
+Caballero2 ataca a Arquero4
+Caballero3 envestido montando ataca 3 veces con lanza
+Caballero3 ataca a Arquero8
+Arquero4 dispara una flecha. Flechas restantes: 11
+Arquero4 ataca a Arquero6
+Arquero5 dispara una flecha. Flechas restantes: 10
+Arquero5 ataca a Caballero5
+Caballero6 envestido montando ataca 3 veces con lanza
+Caballero6 ataca a Arquero3
+Espadachin7 realiza un ataque con su espada de longitud 5
+Espadachin7 ataca a Espadachin7
+Caballero8 envestido montando ataca 3 veces con lanza
+Caballero8 ataca a Arquero0
+Espadachin9 realiza un ataque con su espada de longitud 9
+Espadachin9 ataca a Arquero9
+Arquero0 dispara una flecha. Flechas restantes: 10
+Arquero0 ataca a Caballero8
+Arquero1 dispara una flecha. Flechas restantes: 11
+Arquero1 ataca a Arquero5
+Caballero2 envestido montando ataca 3 veces con lanza
+Caballero2 ataca a Caballero2
+Arquero3 dispara una flecha. Flechas restantes: 11
+Arquero3 ataca a Caballero2
+Arquero4 dispara una flecha. Flechas restantes: 11
+Arquero4 ataca a Arquero5
+Caballero5 envestido montando ataca 3 veces con lanza
+Caballero5 ataca a Caballero1
+Arquero6 dispara una flecha. Flechas restantes: 8
+Arquero6 ataca a Caballero2
+Espadachin7 realiza un ataque con su espada de longitud 7
+Espadachin7 ataca a Espadachin7
+Arquero9 dispara una flecha. Flechas restantes: 11
+Arquero9 ataca a Caballero8
+
+Turno 3:
+Caballero0 envestido montando ataca 3 veces con lanza
+Caballero0 ataca a Arquero1
+Caballero1 envestido montando ataca 3 veces con lanza
+Caballero1 ataca a Espadachin7
+Caballero2 envestido montando ataca 3 veces con lanza
+Caballero2 ataca a Arquero0
+Caballero3 envestido montando ataca 3 veces con lanza
+Caballero3 ataca a Arquero4
+Arquero4 dispara una flecha. Flechas restantes: 10
+Arquero4 ataca a Arquero0
+Arquero5 dispara una flecha. Flechas restantes: 9
+Arquero5 ataca a Arquero9
+Caballero6 envestido montando ataca 3 veces con lanza
+Caballero6 ataca a Arquero9
+Espadachin7 realiza un ataque con su espada de longitud 5
+Espadachin7 ataca a Arquero0
+Caballero8 envestido montando ataca 3 veces con lanza
+Caballero8 ataca a Arquero3
+Espadachin9 realiza un ataque con su espada de longitud 9
+Espadachin9 ataca a Arquero6
+Arquero0 dispara una flecha. Flechas restantes: 9
+Arquero0 ataca a Caballero1
+Arquero1 dispara una flecha. Flechas restantes: 10
+Arquero1 ataca a Caballero8
+Caballero2 envestido montando ataca 3 veces con lanza
+Caballero2 ataca a Caballero2
+Arquero3 dispara una flecha. Flechas restantes: 10
+Arquero3 ataca a Espadachin7
+Caballero5 envestido montando ataca 3 veces con lanza
+Caballero5 ataca a Caballero3
+Arquero6 dispara una flecha. Flechas restantes: 7
+Arquero6 ataca a Caballero0
+
+Turno 4:
+Caballero1 envestido montando ataca 3 veces con lanza
+Caballero1 ataca a Arquero3
+Caballero3 envestido montando ataca 3 veces con lanza
+Caballero3 ataca a Caballero5
+Arquero4 dispara una flecha. Flechas restantes: 9
+Arquero4 ataca a Caballero5
+Arquero5 dispara una flecha. Flechas restantes: 8
+Arquero5 ataca a Arquero1
+Caballero6 envestido montando ataca 3 veces con lanza
+Caballero6 ataca a Arquero0
+Espadachin9 realiza un ataque con su espada de longitud 9
+Espadachin9 ataca a Arquero6
+Caballero2 envestido montando ataca 3 veces con lanza
+Caballero2 ataca a Caballero3
+Arquero6 dispara una flecha. Flechas restantes: 6
+Arquero6 ataca a Caballero1
+
+Turno 5:
+Caballero3 envestido montando ataca 3 veces con lanza
+Caballero3 ataca a Caballero2
+Arquero4 dispara una flecha. Flechas restantes: 8
+Arquero4 ataca a Arquero6
+Arquero5 dispara una flecha. Flechas restantes: 7
+Arquero5 ataca a Caballero2
+�El Ej�rcito 1 gana la batalla!
+BUILD SUCCESSFUL (total time: 0 seconds)

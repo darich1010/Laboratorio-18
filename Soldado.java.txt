@@ -15,20 +15,16 @@ class Soldado {
         
     }
 
+    public void recibirAtaque() {
+        this.puntosVida -= 1; 
+    }
+
     public String getNombre() {
         return nombre;
     }
 
     public int getPuntosVida() {
         return puntosVida;
-    }
-
-    public int getFila() {
-        return fila;
-    }
-
-    public int getColumna() {
-        return columna;
     }
 
     public void mostrarInfo() {
