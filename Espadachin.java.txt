@@ -1,0 +1,17 @@
+class Espadachin extends Soldado {
+    private int longitudEspada;
+
+    public Espadachin(String nombre, int puntosVida, int fila, int columna, int longitudEspada) {
+        super(nombre, puntosVida, fila, columna);
+        this.longitudEspada = longitudEspada;
+    }
+
+    @Override
+    public void atacar() {
+        System.out.println(getNombre() + " realiza un ataque con su espada de longitud " + longitudEspada);
+    }
+
+    public void crearMuroEscudos() {
+        System.out.println(getNombre() + " crea un muro de escudos.");
+    }
+}

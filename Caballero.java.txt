@@ -1,0 +1,35 @@
+class Caballero extends Soldado {
+    private boolean montado;
+    private String arma;
+
+    public Caballero(String nombre, int puntosVida, int fila, int columna) {
+        super(nombre, puntosVida, fila, columna);
+        this.montado = true;
+        this.arma = "lanza";
+    }
+
+    @Override
+    public void atacar() {
+        if (montado) {
+            System.out.println(getNombre() + " envestido montando ataca 3 veces con " + arma);
+        } else {
+            System.out.println(getNombre() + " envestido desmontado ataca 2 veces con " + arma);
+        }
+    }
+
+    public void montar() {
+        if (!montado) {
+            montado = true;
+            arma = "lanza";
+            System.out.println(getNombre() + " ha montado y ahora está armado con una " + arma);
+        }
+    }
+
+    public void desmontar() {
+        if (montado) {
+            montado = false;
+            arma = "espada";
+            System.out.println(getNombre() + " ha desmontado y ahora está armado con una " + arma);
+        }
+    }
+}
